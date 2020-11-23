@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_galeri_galeri_fotos",
+  "info": {
+    "name": "Galeri foto",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "GaleriFoto": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

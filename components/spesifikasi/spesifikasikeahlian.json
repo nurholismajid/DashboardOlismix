@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_spesifikasi_spesifikasikeahlians",
+  "info": {
+    "name": "Spesifikasikeahlian",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "TitleSpesifikasi": {
+      "type": "string"
+    }
+  }
+}

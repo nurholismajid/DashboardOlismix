@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portofolios",
+  "info": {
+    "name": "Portofolio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "NameProjek": {
+      "type": "string"
+    },
+    "Cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "SortDescription": {
+      "type": "text"
+    },
+    "FullDescription": {
+      "type": "richtext"
+    },
+    "GaleriProjek": {
+      "type": "component",
+      "repeatable": false,
+      "component": "galeri.galeri-foto"
+    }
+  }
+}

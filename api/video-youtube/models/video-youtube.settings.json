@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_youtubes",
+  "info": {
+    "name": "Video Youtube"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "ChanelName": {
+      "type": "string"
+    },
+    "UrlChanel": {
+      "type": "string"
+    },
+    "IDVideo": {
+      "type": "string"
+    },
+    "Cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

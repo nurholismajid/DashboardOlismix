@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/beranda-website",
+      "handler": "beranda-website.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/beranda-website",
+      "handler": "beranda-website.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/beranda-website",
+      "handler": "beranda-website.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

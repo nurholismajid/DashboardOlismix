@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "profil_sayas",
+  "info": {
+    "name": "Profil Saya"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "GaleriFoto": {
+      "type": "component",
+      "repeatable": false,
+      "component": "galeri.galeri-foto"
+    },
+    "Biodata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profil.biodata"
+    },
+    "Pendidikan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profil.pendidikan"
+    },
+    "Pekerjaan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profil.pekerjaan"
+    }
+  }
+}

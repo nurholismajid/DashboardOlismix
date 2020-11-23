@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_profil_pendidikans",
+  "info": {
+    "name": "Pendidikan",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "NamaSekolah": {
+      "type": "string"
+    },
+    "Jenjang": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "TahunMasuk": {
+      "type": "date"
+    },
+    "TahunLulus": {
+      "type": "date"
+    }
+  }
+}

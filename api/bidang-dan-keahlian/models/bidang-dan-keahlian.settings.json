@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bidang_dan_keahlians",
+  "info": {
+    "name": "Bidang dan Keahlian",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Descriptions": {
+      "type": "text"
+    },
+    "Spesifikasi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "spesifikasi.spesifikasikeahlian"
+    }
+  }
+}

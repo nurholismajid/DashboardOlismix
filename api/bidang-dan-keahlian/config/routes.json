@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bidang-dan-keahlians",
+      "handler": "bidang-dan-keahlian.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bidang-dan-keahlians/count",
+      "handler": "bidang-dan-keahlian.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bidang-dan-keahlians/:id",
+      "handler": "bidang-dan-keahlian.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bidang-dan-keahlians",
+      "handler": "bidang-dan-keahlian.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bidang-dan-keahlians/:id",
+      "handler": "bidang-dan-keahlian.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bidang-dan-keahlians/:id",
+      "handler": "bidang-dan-keahlian.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

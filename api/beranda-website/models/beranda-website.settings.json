@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "beranda_websites",
+  "info": {
+    "name": "Beranda Website",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Description": {
+      "type": "richtext",
+      "required": true
+    },
+    "Profile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "TitleButton": {
+      "type": "string"
+    },
+    "BannerVideo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

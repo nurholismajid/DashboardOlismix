@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/profil-saya",
+      "handler": "profil-saya.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/profil-saya",
+      "handler": "profil-saya.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/profil-saya",
+      "handler": "profil-saya.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

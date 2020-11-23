@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_profil_biodata",
+  "info": {
+    "name": "Biodata",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "TempatTanggalLahir": {
+      "type": "string"
+    },
+    "NamaLengkap": {
+      "type": "string"
+    },
+    "PendidikanTerakhir": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Telepon": {
+      "type": "string"
+    },
+    "Alamat": {
+      "type": "string"
+    }
+  }
+}

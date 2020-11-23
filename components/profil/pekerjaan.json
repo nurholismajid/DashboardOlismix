@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_profil_pekerjaans",
+  "info": {
+    "name": "Pekerjaan",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "Profesi": {
+      "type": "string"
+    },
+    "NamaPerusahan": {
+      "type": "string"
+    },
+    "Deescription": {
+      "type": "text"
+    },
+    "TahunMasuk": {
+      "type": "date"
+    },
+    "TahunKeluar": {
+      "type": "date"
+    }
+  }
+}
